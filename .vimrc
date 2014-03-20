@@ -30,7 +30,7 @@ NeoBundle 'scrooloose/syntastic'
 "NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'Valloric/YouCompleteMe', {
       \ 'build' : {
-      \     'unix': 'install.sh --clang-completer',
+      \     'unix': './install.sh --clang-completer',
       \    },
       \  }
 NeoBundle 'Shougo/vimproc', {
