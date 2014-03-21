@@ -14,6 +14,7 @@ NeoBundleFetch 'Shuogo/newobundle.vim'
 "NeoBundle 'klen/python-mode'
 "NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'flazz/vim-colorschemes'
+NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'mhinz/vim-startify'
 NeoBundle "MarcWeber/vim-addon-mw-utils"
 NeoBundle 'tomtom/tlib_vim'
@@ -29,7 +30,7 @@ NeoBundle 'scrooloose/syntastic'
 "NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'Valloric/YouCompleteMe', {
       \ 'build' : {
-      \     'unix': 'install.sh --clang-completer',
+      \     'unix': './install.sh --clang-completer',
       \    },
       \  }
 NeoBundle 'Shougo/vimproc', {
