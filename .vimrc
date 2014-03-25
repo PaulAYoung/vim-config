@@ -42,6 +42,11 @@ NeoBundle 'Shougo/vimproc', {
       \    },
       \ }
 NeoBundle 'Shougo/unite-outline'
+NeoBundle 'marijnh/tern_for_vim', {
+      \ 'build': {
+      \    'unix': 'npm install',
+      \    },
+      \ }
 
 filetype plugin indent on
 let mapleader = ";"
