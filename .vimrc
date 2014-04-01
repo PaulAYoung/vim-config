@@ -25,6 +25,7 @@ NeoBundle 'garbas/vim-snipmate'
 NeoBundle 'honza/vim-snippets'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shuogo/Shougo/neomru.vim'
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'scrooloose/syntastic'
 "NeoBundle 'davidhalter/jedi-vim'
@@ -65,7 +66,7 @@ endfunction
 nnoremap <leader>ub :Unite -start-insert buffer<cr>
 nnoremap <leader>uo :Unite -start-insert outline<cr>
 nnoremap <leader>ur :Unite -start-insert file_mru<cr>
-nnoremap <leader>uf :Unite -start-insert file_rec<cr>
+nnoremap <leader>uf :Unite -start-insert file_rec/async<cr>
 
 "YCM shortcuts
 let g:ycm_key_list_select_completion = ['<Down>', '<C-j>']
