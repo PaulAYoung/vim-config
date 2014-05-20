@@ -48,6 +48,7 @@ NeoBundle 'marijnh/tern_for_vim', {
       \    'unix': 'npm install',
       \    },
       \ }
+NeoBundle 'oplatek/Conque-Shell'
 
 filetype plugin indent on
 let mapleader = ";"
